@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: studytaskServer
+  datasource:
+    url: jdbc:postgresql://localhost:5532/studytask
+    username: studytask
+    password: studytask
+    driver-class-name: org.postgresql.Driver
+  security:
+    user:
+      name: studytask
+      password: studytask
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
